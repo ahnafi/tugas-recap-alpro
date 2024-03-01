@@ -55,7 +55,7 @@ int main() {
                 break; // Keluar dari perulangan
             }
         }
-    } while (bilanganTarget != tebakan);
+    } while (mainLagi != 'T' || mainLagi != 't');
 
     return 0;
 }
